@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unary.Server", "Unary.Server\Unary.Server.csproj", "{27959E4F-0A99-40DE-8ECD-68098F475527}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unary", "Unary", "{D77B895C-3E30-4E1F-9DF4-C71E3EDEADD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unary.Client", "Unary.Client\Unary.Client.csproj", "{00DD6E18-97B6-4A27-BBB5-6DBC6BC3114F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27959E4F-0A99-40DE-8ECD-68098F475527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27959E4F-0A99-40DE-8ECD-68098F475527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27959E4F-0A99-40DE-8ECD-68098F475527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27959E4F-0A99-40DE-8ECD-68098F475527}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00DD6E18-97B6-4A27-BBB5-6DBC6BC3114F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00DD6E18-97B6-4A27-BBB5-6DBC6BC3114F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00DD6E18-97B6-4A27-BBB5-6DBC6BC3114F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00DD6E18-97B6-4A27-BBB5-6DBC6BC3114F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{27959E4F-0A99-40DE-8ECD-68098F475527} = {D77B895C-3E30-4E1F-9DF4-C71E3EDEADD6}
+		{00DD6E18-97B6-4A27-BBB5-6DBC6BC3114F} = {D77B895C-3E30-4E1F-9DF4-C71E3EDEADD6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B31D9F8-2B98-49D9-94F7-62A1F774CE83}
+	EndGlobalSection
+EndGlobal
